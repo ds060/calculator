@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NotOrtalamasi {
     public static void main(String[] args) {
-        int mat, fizik, kimya, turkce, tarih, muzik, biyoloji;
+        int mat, fizik, kimya, turkce, tarih, muzik;
 
         Scanner input = new Scanner(System.in);
 
@@ -26,8 +26,6 @@ public class NotOrtalamasi {
         System.out.print("muzik notunuz:");
         muzik= input.nextInt();
 
-        System.out.print("biyoloji notunuz:");
-        biyoloji= input.nextInt();
 
         int toplam = (mat+ fizik+ kimya+ turkce+ tarih+ muzik);
         double sonuc= toplam / 6.0;
