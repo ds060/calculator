@@ -33,7 +33,7 @@ public class NotOrtalamasi {
         double sonuc= toplam / 6.0;
         System.out.println("ortalamanız:"+sonuc);
 //bundan sonra yazılan kod kaldı ya da geçti sonucunu ekrana yazdırmak için
-
+//
         System.out.println(sonuc<60? "Sınıfta Kaldınız":"Sınıfı Geçtiniz" );
     }
 }
